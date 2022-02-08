@@ -1,0 +1,580 @@
+SELECT
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif
+}
+
+TEXTAREA
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif
+}
+
+BODY
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif
+}
+
+BODY.page
+{
+    MARGIN: 2px;
+    BACKGROUND-COLOR: White;
+}
+
+BODY.grid
+{
+    MARGIN: 0px
+}
+
+TD
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif
+}
+
+A.topo
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-DECORATION: none
+}
+
+A.topo:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-DECORATION: underline
+}
+
+A.menu
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-DECORATION: none
+}
+
+A.menu:hover
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-DECORATION: underline;
+}
+
+SPAN.tituloshape
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    POSITION: relative;
+    TOP: 10px;
+    BACKGROUND-COLOR: White;
+}
+
+
+SPAN.shape
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000080;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    POSITION: relative;
+    TOP: -10px;
+    BACKGROUND-COLOR: #cecece;
+}
+
+TD.titulojanela
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url("../images/fundo.gif");
+    COLOR: white;
+    FONT-FAMILY: 'Microsoft Sans Serif,MS Sans Serif';
+}
+
+TD.titulocampo
+{
+    FONT-WEIGHT: lighter;
+    COLOR: #000080
+}
+
+TD.campolupa
+{
+    COLOR: #400000;
+    BACKGROUND-COLOR: White;
+}
+
+INPUT.text
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 15px
+}
+
+INPUT.textmaiusculo
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-TRANSFORM: uppercase;
+    HEIGHT: 15px
+}
+
+INPUT.checkbox
+{
+    BORDER-BOTTOM-STYLE: none
+}
+
+INPUT.button
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url("../images/fundo.gif");
+    COLOR: black;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px
+}
+
+INPUT.button_bar
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url("../images/fundo.gif");
+    COLOR: black;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TOP: 5px;
+    HEIGHT: 20px
+}
+
+TABLE.janela
+{
+    BORDER-RIGHT: White inset;
+    BORDER-TOP: White 1px solid;
+    BORDER-LEFT: White 1px solid;
+    BORDER-BOTTOM: White 5px inset;
+    BACKGROUND-COLOR: #dcdcdc
+}
+
+TABLE.shape
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    BACKGROUND-COLOR: #dcdcdc
+}
+
+IFRAME.grid
+{
+    BORDER-RIGHT: thin groove;
+    BORDER-TOP: thin groove;
+    BORDER-LEFT: thin groove;
+    BORDER-BOTTOM: thin groove
+}
+
+TABLE.grid_body
+{
+    MARGIN: 0px;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: #cecece
+}
+
+TABLE.grid
+{
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-COLLAPSE: collapse
+}
+
+TABLE.grid_cabecalho
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    BORDER-LEFT: 1px inset;
+    BORDER-BOTTOM: 1px inset
+}
+
+TD.grid_cabecalho
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    BORDER-BOTTOM: 1px outset
+}
+
+TD.grid_celula
+{
+    BORDER-RIGHT: silver 1px solid;
+    BORDER-BOTTOM: silver 1px solid
+}
+
+TD.grid
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: silver;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: silver;
+    BORDER-TOP-COLOR: silver;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: silver
+}
+
+TR.grid_claro
+{
+    CURSOR: hand;
+    BACKGROUND-COLOR: #ffffef
+}
+
+TR.grid_escuro
+{
+    CURSOR: hand;
+    BACKGROUND-COLOR: #ffffd0
+}
+
+TR.selecionado
+{
+    CURSOR: hand;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #000084
+}
+
+TD.gridline_cabecalho
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    BORDER-LEFT-COLOR: gray;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: gray;
+    COLOR: #000000;
+    BORDER-TOP-COLOR: gray;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: gray
+}
+
+TD.numtela
+{
+    FONT-SIZE: 7pt;
+    COLOR: #000080;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 10px;
+    TEXT-ALIGN: right
+}
+
+TR.menu
+{
+    CURSOR: hand
+}
+
+UL
+{
+    MARGIN-LEFT: 0px
+}
+
+TABLE.button_bar
+{
+    BORDER-RIGHT: White 1px ridge;
+    BORDER-TOP: White 1px ridge;
+    BORDER-LEFT: White 1px ridge;
+    BORDER-BOTTOM: White 1px ridge
+}
+
+TABLE.pagecorpo
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: 1px;
+    BORDER-BOTTOM: 1px;
+    BACKGROUND-COLOR: White
+}
+
+TD.sidepagecorpo
+{
+    BORDER-RIGHT: 1px inset;
+    BORDER-TOP: 1px inset;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: 1px inset;
+    BACKGROUND-COLOR: #cecece
+}
+
+TD.pageup
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url("../images/fundo.gif");
+    BORDER-LEFT: 1px outset;
+    CURSOR: default;
+    COLOR: white;
+    BORDER-BOTTOM: #cecece 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px
+}
+
+TD.pagedown
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url("../images/fundo2.gif");
+    BORDER-LEFT: 1px outset;
+    CURSOR: default;
+    COLOR: black;
+    BORDER-BOTTOM: white 1px solid;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px
+}
+
+TD.sidepageup
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px outset;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px outset;
+    CURSOR: default;
+    COLOR: #000080;
+    BORDER-BOTTOM: 1px outset;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #cecece
+}
+
+TD.sidepagedown
+{
+    BORDER-RIGHT: 1px inset;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px inset;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: 1px inset;
+    CURSOR: default;
+    COLOR: #000080;
+    BORDER-BOTTOM: 1px inset;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #cecece
+}
+
+TD.pageblank
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: white 1px solid
+}
+
+TABLE.manut
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+
+DIV.grid_body
+{
+    MARGIN: 0px;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: White
+}
+
+DIV.grid_cabecalho
+{
+    MARGIN: 0px;
+    OVERFLOW: hidden;
+    WIDTH: 100%;
+    POSITION: relative
+}
+
+DIV.grid
+{
+    MARGIN: -1px;
+    OVERFLOW: auto;
+    WIDTH: 100%
+}
+
+DIV.Lupa
+{
+    BORDER-RIGHT: thin outset;
+    BORDER-TOP: thin outset;
+    LEFT: 0px;
+    BORDER-LEFT: thin outset;
+    BORDER-BOTTOM: thin outset;
+    POSITION: absolute;
+    TOP: 0px;
+    BACKGROUND-COLOR: White
+}
+
+DIV.Critkm
+{
+    BORDER-RIGHT: thin outset;
+    BORDER-TOP: thin outset;
+    Z-INDEX: 1;
+    LEFT: 0px;
+    BORDER-LEFT: thin outset;
+    WIDTH: 415px;
+    BORDER-BOTTOM: thin outset;
+    POSITION: absolute;
+    TOP: 0px;
+    HEIGHT: 150px;
+    BACKGROUND-COLOR: #cecece
+}
+
+DIV.Txt_critkm
+{
+    BORDER-RIGHT: #808080 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #808080 1px solid;
+    PADDING-LEFT: 4px;
+    LEFT: 0px;
+    BORDER-LEFT: #808080 1px solid;
+    WIDTH: 398px;
+    BORDER-BOTTOM: #808080 1px solid;
+    TOP: 0px;
+    HEIGHT: 62px
+}
+
+DIV.titulolupa
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url("../images/fundo.gif");
+    CURSOR: default;
+    COLOR: black;
+    TEXT-INDENT: 4pt;
+    PADDING-TOP: 2px;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 18px
+}
+
+IMG.lupa
+{
+    WIDTH: 100%;
+    POSITION: absolute;
+    HEIGHT: 18px
+}
+
+IMG.btnlupa
+{
+    WIDTH: 18px;
+    HEIGHT: 18px
+}
+
+IMG.slupa
+{
+    WIDTH: 100%;
+    POSITION: absolute;
+    HEIGHT: 18px
+}
+
+IMG.btnslupa
+{
+    WIDTH: 18px;
+    HEIGHT: 18px
+}
+
+SPAN.campo
+{
+    OVERFLOW: hidden;
+}
+
+SPAN.titulojanela
+{
+    CLEAR: right;
+    BACKGROUND-IMAGE: url("../images/detalhe_barra.gif");
+    WIDTH: 37px;
+    POSITION: relative;
+    HEIGHT: 17px
+}
+
+BODY.Fundo
+{
+    BACKGROUND-COLOR: #f8f7fc
+}
+
+BODY.Topofweb
+{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url("../images%20Arara/topo/topo.gif")
+}
+
+BODY.gridnavegador
+{
+    BACKGROUND-COLOR: White
+}
+
+BODY.Montagem
+{
+    BACKGROUND-IMAGE: url(..images/montagem.gif)
+}
+
+DIV.Tituloshape
+{
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: -5px;
+    FONT-FAMILY: 'Microsoft Sans Serif', 'MS Sans Serif';
+    POSITION: relative;
+    TOP: -10px;
+    BACKGROUND-COLOR: White
+}
+
+SPAN.Tituloshapetela
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: 'Microsoft Sans Serif', 'MS Sans Serif';
+    TOP: -9px;
+    BACKGROUND-COLOR: White
+}
+
+DIV.Tituloshapetela
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: 'Microsoft Sans Serif', 'MS Sans Serif';
+    BACKGROUND-COLOR: White
+}
+
+
+
+
+
+
+
+

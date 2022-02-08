@@ -1,0 +1,492 @@
+Body
+{
+    FONT-SIZE: 9pt;
+    background-color: white;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif
+}
+
+INPUT.CODIGO
+{
+	BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+}
+
+INPUT.CamposLogin
+{
+    FONT-SIZE: 9pt;
+    COLOR: #191970;
+    FONT-FAMILY: Arial, Microsoft Sans Serif,MS Sans Serif;
+    background-color: #fffacd;
+    height: 12px;
+    text-align: left;
+}
+
+SELECT.Campos
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, Microsoft Sans Serif,MS Sans Serif;
+}
+
+INPUT.Campos
+{
+    FONT-SIZE: 8pt;
+    COLOR: #191970;
+    background-color: #fffacd;
+    FONT-FAMILY: Arial, Microsoft Sans Serif,MS Sans Serif;
+    height: 12px;
+}
+
+A.LinkPreto
+{
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    font-weight: bold;
+    FONT-FAMILY: Verdana;
+    text-decoration: none;
+}
+
+A.LinkVermelho
+{
+    FONT-SIZE: 10pt;
+    COLOR: red;
+    font-weight: bold;
+    FONT-FAMILY: Verdana;
+    text-decoration: none;
+}
+
+A:hover.LinkPreto
+{
+	text-decoration: underline;
+}
+
+A.LinkBranco
+{
+    FONT-SIZE: 8pt;
+    COLOR: white;
+    font-weight: bold;
+    FONT-FAMILY: Verdana;
+    text-decoration: none;
+}
+
+A:hover.LinkBranco
+{
+	text-decoration: underline;
+}
+
+SPAN.InfoInferior
+{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 10px;
+	color: black;
+}
+
+SPAN.campos
+{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+
+TD.TopoAdm
+{
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    font-weight: bold;
+    FONT-FAMILY: Verdana;
+    text-decoration: none;
+}
+
+TD.titulo
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    font-weight: bold;
+    FONT-FAMILY: Verdana;
+    text-decoration: none;
+}
+
+SPAN.TituloPagina
+{
+	font-size: 12px;
+	font-family: Verdana;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+SPAN.MenuInferior
+{
+	font-size: 10px;
+	font-family: Verdana;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+SPAN.TituloPaginaLoja
+{
+	font-size: 16px;
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ff8c00;
+}
+
+LABEL.TituloPaginaLoja
+{
+	font-size: 16px;
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ff8c00;
+}
+
+DIV.Texto
+{
+	font-family: Verdana;
+	font-size: 11px;
+	text-align: justify;
+	word-spacing: 00px;
+	line-height: 20px;
+}
+
+DIV.Master
+{
+	float: left; 
+	position: relative; 
+	top: -1px; 
+}
+
+DIV.MasterLogin
+{
+	float: left; 
+	position: relative; 
+	top: -1px; 
+}
+
+TD.LabelCampo
+{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #ff8c00;
+	text-align: left;
+	
+}
+
+SPAN.LabelMenu
+{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: black;
+	text-align: left;
+}
+
+SPAN.MsgInferior
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #ff8c00;
+	text-align: center;
+	
+}
+
+SPAN.LabelCampo
+{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #ff8c00;
+	text-align: left;
+}
+
+SPAN.MsgEmail
+{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: #ff8c00;
+	text-align: left;
+}
+
+SPAN.TextoGrande
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: black;
+	text-align: center;
+}
+
+SPAN.LabelRadio
+{
+	font-size: 9.8px;
+	font-weight: bold;
+	font-family: Verdana;
+	color: black;
+	text-align: left;
+}
+
+INPUT.BtnNormal
+{
+	font-family: Verdana;
+	font-size: 10px;
+	background-color: #ffd700;
+	border-style: groove;
+	height: 18px;
+}
+
+INPUT.BtnExcluir
+{
+	font-family: Verdana;
+	font-size: 10px;
+	background-color: #ffd700;
+	border-style: groove;
+	font-weight: bold;
+	color: red;
+	height: 18px;
+}
+
+INPUT.BtnImporta
+{
+	font-family: Verdana;
+	font-size: 10px;
+	background-color: #ffd700;
+	border-style: groove;
+	font-weight: bold;
+	height: 30px;
+}
+
+INPUT.BtnProcurar
+{
+	display: 'none';
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #ffd700;
+	
+}
+
+SPAN.MsgSistema
+{
+	font-size: 10px;
+	font-family: Ms Sans-Serif;
+	color: #ff8c00;
+	text-align: center;
+}
+
+TABLE.TabelaGrid
+{
+	border-style: ridge;
+	border-spacing: 02px;
+}
+	
+TD.TituloGrid
+{
+	color: black;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #ffd700;
+}
+
+TABLE.TabelaCarrinho
+{
+	border-style: ridge;
+	border-width:1px;
+	border-spacing: 02px;
+}
+	
+TD.TituloCarrinho
+{
+	color: black;
+	font-weight: bold;
+	font-size: 11px;
+	border-style: ridge;
+	border-color:Black;
+	border-width:1px;
+	background-color: #ffd700;
+}
+
+TD.CampoCarrinho
+{
+	color: black;
+	font-weight: normal;
+	font-size: 11px;
+	border-style: ridge;
+	border-color:Black;
+	border-width:1px;
+}
+
+TR.linha_grid_um
+{
+	background-color: #fffacd;
+	line-height: 15px;
+}
+
+TR.linha_grid_dois
+{
+	background-color: white;
+	line-height: 15px;
+}
+
+DIV.artigo
+{
+	color: black;
+	font-weight: normal;
+}
+
+SPAN.titulo
+{
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+SPAN.indice
+{
+	color: red;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+SPAN.indice:hover
+{
+	text-decoration: underline;
+}
+
+SPAN.fonte
+{
+	color: Silver;
+	font-size: 10px;
+}
+
+A.link_download
+{
+	margin-left: 10px;
+	color: blue;
+	font-family: Verdana;
+	font-size: 10px;	
+}
+
+INPUT.text
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 15px
+}
+
+INPUT.textmaiusculo
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    text-transform: uppercase;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 15px
+}
+
+INPUT.password
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 15px
+}
+
+
+INPUT.textmaiusculo
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    TEXT-TRANSFORM: uppercase;
+    HEIGHT: 15px
+}
+
+SELECT.list
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 15px
+}
+
+TEXTAREA.text
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+}
+
+INPUT.file
+{
+    BORDER-RIGHT: #545558 1px solid;
+    BORDER-TOP: #545558 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #545558 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: #545558 1px solid;
+    background-color: #fffacd;
+    FONT-FAMILY: Microsoft Sans Serif,MS Sans Serif;
+    HEIGHT: 20px
+}
+
+DIV.menu
+{
+	background-color: black;
+	line-height: 15px;
+	font-size: 12px;
+	COLOR: white;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+DIV.submenu
+{
+	background-color: #fffacd;
+	line-height: 15px;
+	font-size: 12px;
+	COLOR: black;
+	font-family: Verdana;
+	font-weight: bold;
+}

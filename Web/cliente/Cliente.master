@@ -1,0 +1,253 @@
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Cliente.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>::.. LuzOnline ..::</title>
+    <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+    <link id="Link1" rel="stylesheet" href="~/css/luz.css" runat="server" />
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+	<script type="text/javascript" src="../js/mascara.js"></script>
+    <script language="javascript" type="text/javascript">
+        document.title = "... LuzOnline - Área do Cliente ...";
+        
+        function mostraMsg(msg)
+        {
+            alert(msg);
+        }
+
+        function procurar(objeto)
+        {
+            var obj = objeto;
+            if  (confirm("Deseja visualizar esse registro?"))
+            {
+		        var campos = window.document.all.tags("input");
+		        for (i=0;i<campos.length;i++)
+		        {
+		            if  (campos(i).alt == "txtcodigo")
+                    {
+                        campos(i).value     = obj.value;
+                        campos(i).readOnly  = true;
+                        
+		                var botao = window.document.all.tags("input");
+		                for (i=0;i<botao.length;i++)
+		                {
+		                    if  (botao(i).alt == "...")
+		                    {
+                                botao(i).click();
+                                for (j=0;j<campos.length;j++)
+                                {
+                                    campos(j).disabled = true;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                obj.checked = false;
+            }
+        }
+        
+        function desabilitaCodigo(acao)
+        {
+            var campos = window.document.all.tags("input");
+            for (i=0;i<campos.length;i++)
+            {
+                if  (campos(i).alt == "txtcodigo")
+                {
+                    campos(i).readOnly  = acao;
+                }
+            }            
+        }
+        function mudacor(obj, acao)
+        {
+            var objeto =  obj;
+            if  (acao == 0) //Passa pelo Link
+            {
+                objeto.style.cursor = "hand";
+                objeto.style.cursor = "pointer";
+                objeto.style.backgroundColor = "#ff8c00";
+            }
+            else //Sai do Link
+            {
+                objeto.style.cursor = "default";
+                objeto.style.backgroundColor = "#fffacd";
+            }
+        }
+        
+        function chamatela(url)
+        {
+            window.location.href = url;
+        }
+        
+        function mostrasubmenu(objeto, acao)
+        {
+            var obj = objeto;
+            var objsubmenu = eval('document.getElementById( "SubMenu_" + obj.id.replace("Menu_", "") )');
+            
+            var div = window.document.getElementsByTagName("div");
+            for (y=0; y<div.length; y++)
+            {
+                if (div[y].name == "menu")
+                {
+                    var a = div[y].offsetWidth;
+                    var b = div[y].offsetLeft;
+                }
+            }
+             
+            var div = window.document.getElementsByTagName("div");
+            for (x=0; x<div.length; x++)
+            {
+                if (div[x].name == "sub")
+                {
+                    if  (acao == 0)
+                    {
+                        if (typeof(obj.offsetParent) != 'undefined') 
+                        {
+                            for (var posT = 0; obj; obj = obj.offsetParent)
+                            {
+                                posT += obj.offsetTop;
+                            }
+                           if (/MSIE (\d+\.\d+);/.test(navigator.userAgent))
+                            { 
+                                var ieversion=new Number(RegExp.$1); 
+                                if (ieversion>7)
+                                {
+                                    div[x].style.top  = posT - 9;
+                                    div[x].style.marginLeft = 140;		
+                                }
+                                else
+                                {
+                                    div[x].style.top  = posT - 16;
+                                    div[x].style.marginLeft = -10;		
+                                }
+                            }
+                        } 
+                        else 
+                        {
+                            div[x].style.top = objeto.y - 100;
+                        }
+                        objsubmenu.style.display = "";
+                    }
+                    
+                    else
+                    {
+                        objsubmenu.style.display = "none";
+                    }
+                }
+
+            }
+            
+        }
+        
+         function mostraopcao(objeto, acao)
+        {
+            objeto.style.cursor = "hand";
+            objeto.style.cursor = "pointer";
+            if  (acao == 0)
+            {
+                objeto.style.display = "";
+            }
+            else
+            {
+                objeto.style.display = "none";
+            }
+        }
+ 
+        function mudacoropcao(obj, acao)
+        {
+            var objeto =  obj;
+            if  (acao == 0)
+            {
+                objeto.style.cursor = "hand";
+                objeto.style.cursor = "pointer";
+                objeto.style.backgroundColor = "#ff8c00";
+            }
+            else
+            {
+                objeto.style.cursor = "default";
+                objeto.style.backgroundColor = "#fffacd";
+            }
+        }
+
+        
+      </script>
+</head>
+<body  style="background-color:black;" >
+    <form id="form1" runat="server">
+    <div align="left" style="position: relative; float: center; background-color:black">
+         <table cellpadding="0" cellspacing="0" style="width: 900px;" border="0" bgcolor="White">
+            <tr>
+                <td align="left" class="TopoAdm" >
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="900px" height="150px">
+                    <param name="movie" value="../images/topo.swf">
+                    <param name="quality" value="high">
+                    <embed src="topo.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="900px" height="150px"></embed></object>
+                 </td>
+            </tr>
+            <tr bgcolor="White" >
+                <td class="titulo" align="right" style="background-color: #ffd700;"> 
+                    <asp:Label 
+                        ID          = "lblUser"
+                        runat       = "server"></asp:Label>&nbsp
+                </td>
+            </tr>
+      
+            <tr>
+                <td style="width: 100%; " align="left" bgcolor="White">
+                       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; height: 60%;" bgcolor="White">
+                            <tr>
+                                <div align="left" id="divmenu" runat="server">
+                                    <td align="center" valign="top" width="60px">
+                                    <div name="menu" id="menu" runat="server" style="position:relative;">
+                                        <asp:Label 
+                                        ID          = "lblMenu"
+                                        runat       = "server">&nbsp;</asp:Label></div>
+                                    <div name="sub" id="submenu" runat="server" style="position:absolute;">
+                                        <asp:Label
+                                        ID          = "lblSubMenu"
+                                        runat       = "server">&nbsp;</asp:Label></div>
+                                    </td>
+                                </div>
+                                <div class="Texto" id="principal" runat="server" align="center" >
+                                    <td align="center" valign="top">
+                                     <br/>
+                                        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                                    </td>
+                               </div>
+                           </tr>
+                       </table>
+                 </td>            
+            </tr>
+            <tr>
+                <td style="height: 10px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #ffd700; height: 10px; width: 100%;">
+                   &nbsp
+                </td>            
+            </tr>
+            <tr bgcolor="White">
+                <td colspan="2" style="height: 30px; width: 100%;" align="center">
+                      <span class="InfoInferior">www.luzonline.com.br | Maiores informações: luzonline@luzonline.com.br ou (27) 8845-5679<br />
+                    Este site é melhor visualizado com Internet Explorer 7 ou superior
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #ffd700; height: 10px; width: 100%;" align=center>
+                   &nbsp <asp:HyperLink class="LinkPreto" ID="sair" runat="server" NavigateUrl="~/loja/principal.aspx" Text="Sair" align="right"/>
+                </td>            
+                
+            </tr>
+        </table>
+    </div>
+    </form>
+    <asp:Label ID="lblMsg" style="display: none;" runat="server" />
+</body>
+</html>
