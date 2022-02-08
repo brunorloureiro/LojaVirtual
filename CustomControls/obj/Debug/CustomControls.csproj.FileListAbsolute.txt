@@ -1,0 +1,15 @@
+C:\guberman.net\Guberman\CustomControls\bin\Debug\CustomControls.dll
+C:\guberman.net\Guberman\CustomControls\bin\Debug\CustomControls.pdb
+C:\guberman.net\Guberman\CustomControls\obj\Debug\ResolveAssemblyReference.cache
+C:\guberman.net\Guberman\CustomControls\obj\Debug\CustomControls.dll
+C:\guberman.net\Guberman\CustomControls\obj\Debug\CustomControls.pdb
+E:\guberman.net\Guberman\CustomControls\bin\Debug\CustomControls.dll
+E:\guberman.net\Guberman\CustomControls\bin\Debug\CustomControls.pdb
+E:\guberman.net\Guberman\CustomControls\obj\Debug\ResolveAssemblyReference.cache
+E:\guberman.net\Guberman\CustomControls\obj\Debug\CustomControls.dll
+E:\guberman.net\Guberman\CustomControls\obj\Debug\CustomControls.pdb
+E:\site luzonline\CustomControls\bin\Debug\CustomControls.dll
+E:\site luzonline\CustomControls\bin\Debug\CustomControls.pdb
+E:\site luzonline\CustomControls\obj\Debug\ResolveAssemblyReference.cache
+E:\site luzonline\CustomControls\obj\Debug\CustomControls.dll
+E:\site luzonline\CustomControls\obj\Debug\CustomControls.pdb
