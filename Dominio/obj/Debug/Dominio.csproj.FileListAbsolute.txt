@@ -1,0 +1,5 @@
+E:\site luzonline\Dominio\obj\Debug\ResolveAssemblyReference.cache
+E:\site luzonline\Dominio\bin\Debug\Dominio.dll
+E:\site luzonline\Dominio\bin\Debug\Dominio.pdb
+E:\site luzonline\Dominio\obj\Debug\Dominio.dll
+E:\site luzonline\Dominio\obj\Debug\Dominio.pdb

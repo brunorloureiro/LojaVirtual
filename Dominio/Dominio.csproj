@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{100057A1-9696-4E63-A008-7DA8BF5EF2E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dominio</RootNamespace>
+    <AssemblyName>Dominio</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adm\Cliente.cs" />
+    <Compile Include="Adm\Carteira.cs" />
+    <Compile Include="Adm\Bolsa.cs" />
+    <Compile Include="Adm\Bermuda.cs" />
+    <Compile Include="Adm\Calca.cs" />
+    <Compile Include="Adm\Camisa.cs" />
+    <Compile Include="Adm\Acesso.cs" />
+    <Compile Include="Adm\Baixa.cs" />
+    <Compile Include="Adm\Banco.cs" />
+    <Compile Include="Adm\Cheque.cs" />
+    <Compile Include="Adm\Bone.cs" />
+    <Compile Include="Adm\SituacaoPedido.cs" />
+    <Compile Include="Adm\Motoxbai.cs" />
+    <Compile Include="Cliente\AreaCliente.cs" />
+    <Compile Include="Loja\Loja.cs" />
+    <Compile Include="Adm\NotaPromissoria.cs" />
+    <Compile Include="Adm\SitCheque.cs" />
+    <Compile Include="Adm\Troca.cs" />
+    <Compile Include="Adm\Principal.cs" />
+    <Compile Include="Adm\RetiraEstoque.cs" />
+    <Compile Include="Adm\Retirada.cs" />
+    <Compile Include="Adm\Itens.cs" />
+    <Compile Include="Adm\EnviaEstoque.cs" />
+    <Compile Include="Adm\Entrada.cs" />
+    <Compile Include="Adm\Promocao.cs" />
+    <Compile Include="Adm\Prata.cs" />
+    <Compile Include="Adm\TiposDePrata.cs" />
+    <Compile Include="Adm\VicSecrets.cs" />
+    <Compile Include="Adm\Jaqueta.cs" />
+    <Compile Include="Adm\TiposDeCalca.cs" />
+    <Compile Include="Adm\SubMenu.cs" />
+    <Compile Include="Adm\Modulo.cs" />
+    <Compile Include="Adm\Menu.cs" />
+    <Compile Include="Adm\Tenis.cs" />
+    <Compile Include="Adm\Fragrancia.cs" />
+    <Compile Include="Adm\Marca.cs" />
+    <Compile Include="Adm\Noticia.cs" />
+    <Compile Include="Adm\Publico.cs" />
+    <Compile Include="Adm\TiposDeProduto.cs" />
+    <Compile Include="Adm\TiposDePagamento.cs" />
+    <Compile Include="Adm\Genero.cs" />
+    <Compile Include="Loja\AviseMe.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Adm\Usuario.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
